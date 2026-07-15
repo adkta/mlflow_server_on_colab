@@ -26,4 +26,4 @@ Clone this repository into your folder (mlflow_test in this example) and install
 
 Add 'NGROK_AUTH=<your_auth_key>' to the environment variables.\
 Run: \
-```/path/to/new/env/python3 -m {PROJ_NAME}.mlflow_server_on_colab.mlflow_server```
+```{PROJ_NAME}/env/bin/python3 -m {PROJ_NAME}.mlflow_server_on_colab.mlflow_server```
