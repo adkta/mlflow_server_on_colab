@@ -39,7 +39,7 @@ def main():
 
     except KeyboardInterrupt:
         print("\nStopping tunnel and MLflow...")
-        ngrok.disconnect(public_url.public_url)
+        ngrok.disconnect(tunnel.public_url)
         mlflow_process.terminate()
 
 if __name__ == "__main__":
